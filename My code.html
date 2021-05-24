@@ -1,20 +1,17 @@
 <!doctype html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Sample Webpage</title>
 <link rel="stylesheet" type="text/css" href="css/styles.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body style="background-color:bisque;">
 <div class="scrollmenu">
-  <a href="#home">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
-  <a href="#support">Support</a>
-  <a href="#tools">Tools</a>  
-  <a href="#more">More</a>
-  <a href="#login">Login</a>
-  <a href="#people">People</a>
+  <a href="#" onclick="home()">Home</a>
+  <a href="#" onclick="contact()">ContactUs</a>
+  <a href="#" onclick="about()">AboutUs</a>
+  <a href="#">Service</a>
+  <a href="#" onclick="login()">Login</a>
 </div>
 <div id="topimage" >
 <img src="images/background.jpg">
@@ -24,9 +21,9 @@
 <br><br><br><br>
 <div style="display:flex; justify-content:space-around;" >
   <div >
-   <a href="file:///C:/Users/admin/Desktop/My%20project/Mobile/mobile.html">
+   <a  href="file:///c:/Users/admin/Desktop/My%20project/Mobile/mobile.html">
     <img class="image1" src="images/mobile.jpg" height="200px" width="200px"></a>
-    <h1 style="text-align:center; color:black;">Mobile Phones</h1>
+    <h1 style="text-align:center; color:black;">Mobile<br>Phones</h1>
   </div>
   <div >
   <a href="file:///C:/Users/admin/Desktop/My%20project/Laptop/laptop.html">
@@ -58,8 +55,8 @@
   </div>
   <div >
   <a href="file:///C:/Users/admin/Desktop/My%20project/washingmachine/washingmachine.html">
-    <img class="image1" src="images/washingmachine.jpg" height="200px" width="200px"></a>
-<h1 style="text-align:center;">Washing Machines</h1>
+    <img  class="image1" src="images/washingmachine.jpg" height="200px" width="200px"></a>
+    <h1 style="text-align:center;">Washing<br>Machines</h1>
   </div>
   <div>
   <a href="file:///C:/Users/admin/Desktop/My%20project/fridge/fridge.html">
@@ -67,9 +64,17 @@
 <h1  style="text-align:center;">Refigerators</h1>
   </div>
 </div>
-<footer style="background-color:lightblack; height:30px; width:100%" >
-<p style="color:white"></p>
+<footer id="bottom">
+  <a href="#"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-flickr"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <p>Copyright 1999-2021 by Refsnes Data. All Rights Reserved.<br>
+  Powered by <a href="#" target="_blank">shop online</a>
+  </p>
 </footer>
 
+<script src="C:\Users\admin\Desktop\My project\js files\Mycode.js"></script>
 </body>
 </html>
